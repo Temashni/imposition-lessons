@@ -86,13 +86,11 @@ input::placeholder {
     padding:0px;
 }
 .photos-icon {
-    margin-top:23px;
+    margin-top: 23px;
+
+    width: 100%;
 }
-@media (max-width: 353px) {
-    .photos {
-        width: 100%;
-    }
-}
+
 .subtitle {
     margin-top: 27px;
 
