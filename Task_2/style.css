@@ -1,6 +1,6 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 .container {
     display: block;
@@ -23,7 +23,7 @@
     width: 100%;
     max-width: 675px;
 
-    padding: 68px 0px 0px 0px;
+    padding-top: 68px;
 }
 
 .logo {
@@ -38,9 +38,9 @@
     text-transform: uppercase;
     font-weight: 400;
     line-height: 62px;
-    font-family: "Open Sans";
-}
-@media (max-width: 380px) {
+    font-family: "Open Sans";}
+
+    @media (max-width: 380px) {
     .page-title {
         padding: 15px;
     }
@@ -58,11 +58,11 @@
     max-width: 320px;
     height: 334px;
 
-    background-color: white;
     margin: auto;
     margin-top: 63px;
     padding-top: 31px;
 
+    background-color: white;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, 0.04);
     border-radius: 3px;
     box-sizing:border-box;
@@ -83,7 +83,7 @@ input::placeholder {
     font-weight: 400;
     line-height: 23px;
 
-    padding:0px;
+    padding:0;
 }
 .photos-icon {
     margin-top: 23px;
@@ -150,6 +150,7 @@ input::placeholder {
 
         width: 100%;
     }
+
     .types-file-container {
         flex-direction: column;
         align-items: center;
@@ -230,21 +231,21 @@ input::placeholder {
     font-weight: 400;
 }
 .paragraph {
- margin-top: 53px;
+    margin-top: 53px;
 }
 .advantages-container-column {
-    width:100%;
-    background-color:#44a36f;
+    width: 100%;
+    background-color: #44a36f;
 
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 
     box-sizing: border-box;
 }
 .advantages-container-2 {
     max-width: 623px;
 
-    padding: 100px 0px 0px 0px;
-    margin:auto;
+    padding-top: 100px;
+    margin: auto;
 
     display: flex;
     align-items: flex-start;
@@ -267,7 +268,7 @@ input::placeholder {
 }
 
 .button-download {
-    padding: 0px 33px 0px 33px;
+    padding: 0 33px;
     margin-top: 45px;
 
     color: #ffffff;
